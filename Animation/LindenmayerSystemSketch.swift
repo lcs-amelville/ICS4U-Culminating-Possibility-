@@ -241,7 +241,7 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
                 turtle.restoreState()
             case "B":
                 //Render a small berry
-                canvas.drawEllipse(at: Point(x: 0, y: 0), width: 3, height: 3)
+                canvas.drawEllipse(at: Point(x: 0, y: 0), width: 4, height: 4)
             default:
                 // Any other character means move forward
                 turtle.forward(steps: Int(round(length)))
