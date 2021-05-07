@@ -29,6 +29,13 @@
 		81A9FADB219A151B003E6502 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9FADA219A151B003E6502 /* Helpers.swift */; };
 		81A9FADD219A156E003E6502 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9FADC219A156E003E6502 /* Color.swift */; };
 		81F935042476B0E000CD75D8 /* Tortoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F935032476B0E000CD75D8 /* Tortoise.swift */; };
+		CB0C79212645BA4A000C5B05 /* Visualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C791D2645BA49000C5B05 /* Visualizer.swift */; };
+		CB0C79222645BA4A000C5B05 /* Predecessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C791E2645BA49000C5B05 /* Predecessor.swift */; };
+		CB0C79232645BA4A000C5B05 /* Successor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C791F2645BA4A000C5B05 /* Successor.swift */; };
+		CB0C79242645BA4A000C5B05 /* LindenmayerSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C79202645BA4A000C5B05 /* LindenmayerSystem.swift */; };
+		CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */; };
+		CB0C792A2645BAC8000C5B05 /* gordon-basic-branching-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */; };
+		CB0C792F2645C452000C5B05 /* aidan-berry-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +123,13 @@
 		81DBFC2322E96442005EDE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81DBFC2422E96442005EDE85 /* .tgz */ = {isa = PBXFileReference; lastKnownFileType = text; path = .tgz; sourceTree = "<group>"; };
 		81F935032476B0E000CD75D8 /* Tortoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tortoise.swift; sourceTree = "<group>"; };
+		CB0C791D2645BA49000C5B05 /* Visualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visualizer.swift; sourceTree = "<group>"; };
+		CB0C791E2645BA49000C5B05 /* Predecessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predecessor.swift; sourceTree = "<group>"; };
+		CB0C791F2645BA4A000C5B05 /* Successor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Successor.swift; sourceTree = "<group>"; };
+		CB0C79202645BA4A000C5B05 /* LindenmayerSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LindenmayerSystem.swift; sourceTree = "<group>"; };
+		CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "scott-berry-tree.json"; sourceTree = "<group>"; };
+		CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gordon-basic-branching-tree.json"; sourceTree = "<group>"; };
+		CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "aidan-berry-bush.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +185,11 @@
 				814ADAFE248EB5E300F80486 /* StaticSketch.swift */,
 				814ADAFC248EB56900F80486 /* EmptySketch.swift */,
 				819F9E6D26415FDC00C7883F /* LindenmayerSystemSketch.swift */,
+				CB0C79202645BA4A000C5B05 /* LindenmayerSystem.swift */,
+				CB0C791E2645BA49000C5B05 /* Predecessor.swift */,
+				CB0C791F2645BA4A000C5B05 /* Successor.swift */,
+				CB0C791D2645BA49000C5B05 /* Visualizer.swift */,
+				CB0C79262645BAB1000C5B05 /* System Catolog */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -379,6 +398,16 @@
 			path = img;
 			sourceTree = "<group>";
 		};
+		CB0C79262645BAB1000C5B05 /* System Catolog */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */,
+				CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */,
+				CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */,
+			);
+			name = "System Catolog";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -474,8 +503,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0C792F2645C452000C5B05 /* aidan-berry-bush.json in Resources */,
+				CB0C792A2645BAC8000C5B05 /* gordon-basic-branching-tree.json in Resources */,
 				81064A0E1C130A10007ED524 /* Assets.xcassets in Resources */,
 				81064A111C130A10007ED524 /* Main.storyboard in Resources */,
+				CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,13 +529,17 @@
 				81064A1C1C132DA2007ED524 /* Sketch.swift in Sources */,
 				819F9E6E26415FDC00C7883F /* LindenmayerSystemSketch.swift in Sources */,
 				81064A0A1C130A10007ED524 /* AppDelegate.swift in Sources */,
+				CB0C79232645BA4A000C5B05 /* Successor.swift in Sources */,
 				814ADAF5248EAB6A00F80486 /* TurtleSketch.swift in Sources */,
+				CB0C79212645BA4A000C5B05 /* Visualizer.swift in Sources */,
 				814ADAF9248EB34900F80486 /* BasicSketch.swift in Sources */,
 				814ADAFB248EB45F00F80486 /* AudioInputSketch.swift in Sources */,
 				814ADAF1248E9F8200F80486 /* AudioAnalyser.swift in Sources */,
+				CB0C79242645BA4A000C5B05 /* LindenmayerSystem.swift in Sources */,
 				814ADAF3248E9FDA00F80486 /* Sketchable.swift in Sources */,
 				814ADAFD248EB56900F80486 /* EmptySketch.swift in Sources */,
 				814ADAFF248EB5E300F80486 /* StaticSketch.swift in Sources */,
+				CB0C79222645BA4A000C5B05 /* Predecessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
