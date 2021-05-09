@@ -36,6 +36,8 @@
 		CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */; };
 		CB0C792A2645BAC8000C5B05 /* gordon-basic-branching-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */; };
 		CB0C792F2645C452000C5B05 /* aidan-berry-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */; };
+		CBCE79EE2648A490006E45CC /* victoria-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = CBCE79ED2648A490006E45CC /* victoria-bush.json */; };
+		CBCE79F12648A498006E45CC /* sihan-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CBCE79F02648A498006E45CC /* sihan-tree.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +132,8 @@
 		CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "scott-berry-tree.json"; sourceTree = "<group>"; };
 		CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gordon-basic-branching-tree.json"; sourceTree = "<group>"; };
 		CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "aidan-berry-bush.json"; sourceTree = "<group>"; };
+		CBCE79ED2648A490006E45CC /* victoria-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "victoria-bush.json"; sourceTree = "<group>"; };
+		CBCE79F02648A498006E45CC /* sihan-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sihan-tree.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +405,8 @@
 		CB0C79262645BAB1000C5B05 /* System Catolog */ = {
 			isa = PBXGroup;
 			children = (
+				CBCE79F02648A498006E45CC /* sihan-tree.json */,
+				CBCE79ED2648A490006E45CC /* victoria-bush.json */,
 				CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */,
 				CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */,
 				CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */,
@@ -506,7 +512,9 @@
 				CB0C792F2645C452000C5B05 /* aidan-berry-bush.json in Resources */,
 				CB0C792A2645BAC8000C5B05 /* gordon-basic-branching-tree.json in Resources */,
 				81064A0E1C130A10007ED524 /* Assets.xcassets in Resources */,
+				CBCE79F12648A498006E45CC /* sihan-tree.json in Resources */,
 				81064A111C130A10007ED524 /* Main.storyboard in Resources */,
+				CBCE79EE2648A490006E45CC /* victoria-bush.json in Resources */,
 				CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
