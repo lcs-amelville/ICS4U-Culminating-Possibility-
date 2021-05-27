@@ -22,29 +22,11 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
                                    drawingOn: self.canvas)
         
         // Render the tree
-        //    basicTree.render()
+        basicTree.initialPosition = Point(x: 250, y: 50)
+           basicTree.render()
         
         
-        
-        //Mr. Gordons Tree
-        var systemGordon = LindenmayerSystem(axiom: "AF",
-                                             rules: [ "F" : [
-                                                Successor(odds: 1, text: "F[-F][+F]"),
-                                                Successor(odds: 1, text: "  F[--F][+F]"),
-                                                Successor(odds: 3, text: "F[-F][++F]"),
-                                             ]
-                                             
-                                             ], generations: 4)
-        
-        var gordonVisualizedSystem = Visualizer(for: systemGordon,
-                                                on: canvas,
-                                                length: 60,
-                                                reduction: 1.25,
-                                                angle: 15,
-                                                initialPosition: Point(x: 250, y: 50),
-                                                initialHeading: 90)
-        
-        gordonVisualizedSystem.render()
+     
         
         
         //Difine the L system
