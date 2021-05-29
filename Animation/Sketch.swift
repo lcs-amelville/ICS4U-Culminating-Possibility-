@@ -17,5 +17,7 @@ class Sketch: NSObject {
 //    var currentDrawing = AudioInputSketch()
 //    var currentDrawing = StaticSketch()
 //    var currentDrawing =  LindenmayerSystemSketch()
-    var currentDrawing = LeafSketch()
+//    var currentDrawing = LeafSketch()
+    var currentDrawing = catTail()
+    
 }

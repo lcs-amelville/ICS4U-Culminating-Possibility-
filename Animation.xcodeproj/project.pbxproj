@@ -36,6 +36,8 @@
 		CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */; };
 		CB0C792A2645BAC8000C5B05 /* gordon-basic-branching-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */; };
 		CB0C792F2645C452000C5B05 /* aidan-berry-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */; };
+		CB588254266170A300AB08E8 /* catTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB588253266170A300AB08E8 /* catTail.swift */; };
+		CB5882582661781600AB08E8 /* aidan-Cattail-sketch.json in Resources */ = {isa = PBXBuildFile; fileRef = CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */; };
 		CB650E22265FDD1400A41F19 /* LSColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB650E21265FDD1400A41F19 /* LSColour.swift */; };
 		CB650E25265FDDD800A41F19 /* leafSketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB650E24265FDDD800A41F19 /* leafSketch.swift */; };
 		CBCE79EE2648A490006E45CC /* victoria-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = CBCE79ED2648A490006E45CC /* victoria-bush.json */; };
@@ -134,6 +136,8 @@
 		CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "scott-berry-tree.json"; sourceTree = "<group>"; };
 		CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gordon-basic-branching-tree.json"; sourceTree = "<group>"; };
 		CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "aidan-berry-bush.json"; sourceTree = "<group>"; };
+		CB588253266170A300AB08E8 /* catTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catTail.swift; sourceTree = "<group>"; };
+		CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "aidan-Cattail-sketch.json"; sourceTree = "<group>"; };
 		CB650E21265FDD1400A41F19 /* LSColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSColour.swift; sourceTree = "<group>"; };
 		CB650E24265FDDD800A41F19 /* leafSketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leafSketch.swift; sourceTree = "<group>"; };
 		CBCE79ED2648A490006E45CC /* victoria-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "victoria-bush.json"; sourceTree = "<group>"; };
@@ -200,6 +204,7 @@
 				CB650E21265FDD1400A41F19 /* LSColour.swift */,
 				CB0C79262645BAB1000C5B05 /* System Catolog */,
 				CB650E24265FDDD800A41F19 /* leafSketch.swift */,
+				CB588253266170A300AB08E8 /* catTail.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -416,6 +421,7 @@
 				CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */,
 				CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */,
 				CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */,
+				CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */,
 			);
 			name = "System Catolog";
 			sourceTree = "<group>";
@@ -519,6 +525,7 @@
 				CB0C792A2645BAC8000C5B05 /* gordon-basic-branching-tree.json in Resources */,
 				81064A0E1C130A10007ED524 /* Assets.xcassets in Resources */,
 				CBCE79F12648A498006E45CC /* sihan-tree.json in Resources */,
+				CB5882582661781600AB08E8 /* aidan-Cattail-sketch.json in Resources */,
 				81064A111C130A10007ED524 /* Main.storyboard in Resources */,
 				CBCE79EE2648A490006E45CC /* victoria-bush.json in Resources */,
 				CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */,
@@ -551,6 +558,7 @@
 				814ADAFB248EB45F00F80486 /* AudioInputSketch.swift in Sources */,
 				814ADAF1248E9F8200F80486 /* AudioAnalyser.swift in Sources */,
 				CB0C79242645BA4A000C5B05 /* LindenmayerSystem.swift in Sources */,
+				CB588254266170A300AB08E8 /* catTail.swift in Sources */,
 				814ADAF3248E9FDA00F80486 /* Sketchable.swift in Sources */,
 				CB650E22265FDD1400A41F19 /* LSColour.swift in Sources */,
 				814ADAFD248EB56900F80486 /* EmptySketch.swift in Sources */,

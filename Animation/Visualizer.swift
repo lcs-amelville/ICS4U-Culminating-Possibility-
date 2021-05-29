@@ -226,6 +226,10 @@ struct Visualizer: Codable {
             
             // Render based on this character
             switch character {
+            case "\n":
+                // Ignore line breaks
+                // This allows us to use multi-line strings when defining axioms and rules
+                break
             case "0":
                 // Placeholder for changing colour
                 turtle?.setPenColor(to: colors["0"]?.expectedColor() ?? Color.black)
@@ -270,7 +274,7 @@ struct Visualizer: Codable {
                 turtle?.restoreState()
             case "B":
                 // Render a small berry
-                canvas?.drawEllipse(at: Point(x: 0, y: 0), width: 5, height: 5)
+                canvas?.drawEllipse(at: Point(x: 0, y: 0), width: 15, height: 3)
             case "a", "b", "c", "d", "e", "f":
                 // Move the turtle forward without drawing a line
                 turtle?.penUp()
