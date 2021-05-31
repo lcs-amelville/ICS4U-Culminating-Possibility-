@@ -2,7 +2,13 @@ import Foundation
 import CanvasGraphics
 
 // NOTE: This is a completely empty sketch; it can be used as a template.
-class LindenmayerSystemSketch: NSObject, Sketchable {
+class Background: NSObject, Sketchable {
+    
+    
+    func draw() {
+        
+    }
+    
     
     // NOTE: Every sketch must contain an object of type Canvas named 'canvas'
     //       Therefore, the line immediately below must always be present.
@@ -17,9 +23,6 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
         // Enable faster rendering
         canvas.highPerformance = true
         
-        
-        
-        // This is the background couldn't make it into a json file
         var Y = 0
         var X = 0
         var B = 20.0
@@ -48,51 +51,19 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
             
             // Render the system
             visualizedBackground.render()
-        
+            visualizedBackground.printJSONRepresentation()
             
             Y += 1
             B += 0.16
             
         }
         
+      
         
         
         
         
-        var basicTree = Visualizer(fromJSONFile: "gordon-basic-branching-tree",
-                                   drawingOn: self.canvas)
         
-        // Render the tree
-        basicTree.initialPosition = Point(x: 250, y: 50)
-          // basicTree.render()
-        
-        
-        //Cattail
-        var XX = 40
-        for _ in  1...8 {
-        
-        var catTail1 = Visualizer(fromJSONFile: "aidan-Cattail-sketch",
-                                   drawingOn: self.canvas)
-        
-        // Render the tree
-        catTail1.initialPosition = Point(x: XX, y: -10)
-           catTail1.render()
-        
-     XX += 60
      
-        }
-        
-       
-        
-        
-        
     }
-    
-    // This function runs repeatedly, forever, to create the animated effect
-    func draw() {
-        
-        // Nothing is being animated, so nothing needed here
-        
-    }
-    
 }

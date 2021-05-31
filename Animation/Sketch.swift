@@ -18,6 +18,7 @@ class Sketch: NSObject {
 //    var currentDrawing = StaticSketch()
 //    var currentDrawing =  LindenmayerSystemSketch()
 //    var currentDrawing = LeafSketch()
-    var currentDrawing = catTail()
+
     
+    var currentDrawing = LindenmayerSystemSketch()
 }

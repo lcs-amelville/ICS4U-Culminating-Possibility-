@@ -40,6 +40,7 @@
 		CB5882582661781600AB08E8 /* aidan-Cattail-sketch.json in Resources */ = {isa = PBXBuildFile; fileRef = CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */; };
 		CB650E22265FDD1400A41F19 /* LSColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB650E21265FDD1400A41F19 /* LSColour.swift */; };
 		CB650E25265FDDD800A41F19 /* leafSketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB650E24265FDDD800A41F19 /* leafSketch.swift */; };
+		CBC7168C266550B200B6C910 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7168B266550B200B6C910 /* Background.swift */; };
 		CBCE79EE2648A490006E45CC /* victoria-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = CBCE79ED2648A490006E45CC /* victoria-bush.json */; };
 		CBCE79F12648A498006E45CC /* sihan-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CBCE79F02648A498006E45CC /* sihan-tree.json */; };
 /* End PBXBuildFile section */
@@ -140,6 +141,7 @@
 		CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "aidan-Cattail-sketch.json"; sourceTree = "<group>"; };
 		CB650E21265FDD1400A41F19 /* LSColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSColour.swift; sourceTree = "<group>"; };
 		CB650E24265FDDD800A41F19 /* leafSketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leafSketch.swift; sourceTree = "<group>"; };
+		CBC7168B266550B200B6C910 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		CBCE79ED2648A490006E45CC /* victoria-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "victoria-bush.json"; sourceTree = "<group>"; };
 		CBCE79F02648A498006E45CC /* sihan-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sihan-tree.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -422,6 +424,7 @@
 				CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */,
 				CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */,
 				CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */,
+				CBC7168B266550B200B6C910 /* Background.swift */,
 			);
 			name = "System Catolog";
 			sourceTree = "<group>";
@@ -551,6 +554,7 @@
 				81064A1C1C132DA2007ED524 /* Sketch.swift in Sources */,
 				819F9E6E26415FDC00C7883F /* LindenmayerSystemSketch.swift in Sources */,
 				81064A0A1C130A10007ED524 /* AppDelegate.swift in Sources */,
+				CBC7168C266550B200B6C910 /* Background.swift in Sources */,
 				CB0C79232645BA4A000C5B05 /* Successor.swift in Sources */,
 				814ADAF5248EAB6A00F80486 /* TurtleSketch.swift in Sources */,
 				CB0C79212645BA4A000C5B05 /* Visualizer.swift in Sources */,
