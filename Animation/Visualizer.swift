@@ -275,6 +275,12 @@ struct Visualizer: Codable {
             case "B":
                 // Render a small berry
                 canvas?.drawEllipse(at: Point(x: 0, y: 0), width: 15, height: 3)
+            case "W":
+// Draw a line facing down with pale green colour
+                
+                turtle?.setHeading(to: 270)
+                
+                
             case "a", "b", "c", "d", "e", "f":
                 // Move the turtle forward without drawing a line
                 turtle?.penUp()

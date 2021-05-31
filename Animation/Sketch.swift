@@ -20,5 +20,6 @@ class Sketch: NSObject {
 //    var currentDrawing = LeafSketch()
 
     
-    var currentDrawing = LindenmayerSystemSketch()
+    //var currentDrawing = LindenmayerSystemSketch()
+    var currentDrawing = willowTreeSketch()
 }
