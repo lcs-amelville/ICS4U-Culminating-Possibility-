@@ -55,17 +55,13 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
             
         }
         
+        // Draw a rock
+        canvas.drawEllipse(at: Point(x: 450, y: 75), width: 55, height: 33)
+        canvas.drawEllipse(at: Point(x: 50, y: 100), width: 65, height: 49)
+        canvas.drawEllipse(at: Point(x: 230, y: 30), width: 90, height: 50)
         
         
-        
-        
-        var basicTree = Visualizer(fromJSONFile: "gordon-basic-branching-tree",
-                                   drawingOn: self.canvas)
-        
-        // Render the tree
-        basicTree.initialPosition = Point(x: 250, y: 50)
-          // basicTree.render()
-        
+       
         
         //Cattail
         var XX = 40
@@ -82,11 +78,80 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
      
         }
         
+        
+        // Cattail level 2
+        var XXX = 20
+        for _ in  1...8 {
+        
+        var catTail2 = Visualizer(fromJSONFile: "aidan-Cattail-sketch",
+                                   drawingOn: self.canvas)
+        
+        // Render the tree
+        catTail2.initialPosition = Point(x: XXX, y: 75)
+           catTail2.render()
+        
+     XXX += 60
+     
+        }
+        
        
+    // Add willow trees
+        var willowTree = Visualizer(fromJSONFile: "aidan-willowTree-sketch",
+                                   drawingOn: self.canvas)
+        
+        willowTree.initialPosition = Point(x:130 , y: 160)
+          willowTree.render()
+    // Willow Tree 2
+        var willowTree2 = Visualizer(fromJSONFile: "aidan-willowTree-sketch",
+                                   drawingOn: self.canvas)
+        
+        willowTree2.initialPosition = Point(x:400 , y: 150)
+          willowTree2.render()
         
         
         
-    }
+        //Try the fern
+        var y = 100
+        var x = 0
+        for _ in  1...8 {
+        
+        var fern = Visualizer(fromJSONFile: "ilana-fern-plant",
+                                   drawingOn: self.canvas)
+        
+        fern.initialPosition = Point(x: x, y: y)
+        fern.render()
+        
+            x += 50
+            y += 100
+        }
+        
+        // Fern 2
+        var yy = 100
+        var xx = 500
+        for _ in  1...8 {
+        
+        var fern = Visualizer(fromJSONFile: "ilana-fern-plant",
+                                   drawingOn: self.canvas)
+        
+        fern.initialPosition = Point(x: xx, y: yy)
+        fern.render()
+        
+            xx += -50
+            yy += 100
+        }
+        
+        
+//        var devilsFingers = Visualizer(fromJSONFile: "james-devils-fingers",
+//                                   drawingOn: self.canvas)
+//
+//        devilsFingers.initialPosition = Point(x: 250, y: 250)
+//        devilsFingers.render()
+//
+//
+//
+//
+//
+   }
     
     // This function runs repeatedly, forever, to create the animated effect
     func draw() {
