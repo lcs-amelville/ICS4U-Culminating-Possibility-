@@ -35,6 +35,7 @@
 		CB0C79242645BA4A000C5B05 /* LindenmayerSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C79202645BA4A000C5B05 /* LindenmayerSystem.swift */; };
 		CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */; };
 		CB0C792F2645C452000C5B05 /* aidan-berry-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */; };
+		CB2B8EE12666720F00A52D0E /* Fernanda-Plan2.json in Resources */ = {isa = PBXBuildFile; fileRef = CB2B8EE02666720F00A52D0E /* Fernanda-Plan2.json */; };
 		CB588254266170A300AB08E8 /* catTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB588253266170A300AB08E8 /* catTail.swift */; };
 		CB5882582661781600AB08E8 /* aidan-Cattail-sketch.json in Resources */ = {isa = PBXBuildFile; fileRef = CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */; };
 		CB650E22265FDD1400A41F19 /* LSColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB650E21265FDD1400A41F19 /* LSColour.swift */; };
@@ -142,6 +143,7 @@
 		CB0C79202645BA4A000C5B05 /* LindenmayerSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LindenmayerSystem.swift; sourceTree = "<group>"; };
 		CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "scott-berry-tree.json"; sourceTree = "<group>"; };
 		CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "aidan-berry-bush.json"; sourceTree = "<group>"; };
+		CB2B8EE02666720F00A52D0E /* Fernanda-Plan2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Fernanda-Plan2.json"; sourceTree = "<group>"; };
 		CB588253266170A300AB08E8 /* catTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catTail.swift; sourceTree = "<group>"; };
 		CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "aidan-Cattail-sketch.json"; sourceTree = "<group>"; };
 		CB650E21265FDD1400A41F19 /* LSColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSColour.swift; sourceTree = "<group>"; };
@@ -436,6 +438,7 @@
 				CB9F55412665C53F00CBBFB9 /* nicole-cherry-blossom-tree.json */,
 				CB9F553526656F6900CBBFB9 /* james-devils-fingers.json */,
 				CBCE79ED2648A490006E45CC /* victoria-bush.json */,
+				CB2B8EE02666720F00A52D0E /* Fernanda-Plan2.json */,
 				CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */,
 				CB9F55382665C51600CBBFB9 /* gordon-short-branching-tree.json */,
 				CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */,
@@ -552,6 +555,7 @@
 				81064A111C130A10007ED524 /* Main.storyboard in Resources */,
 				CBCE79EE2648A490006E45CC /* victoria-bush.json in Resources */,
 				CB9F553326656E3100CBBFB9 /* ilana-fern-plant.json in Resources */,
+				CB2B8EE12666720F00A52D0E /* Fernanda-Plan2.json in Resources */,
 				CB9F553F2665C53500CBBFB9 /* nicole-ocotillo-bush.json in Resources */,
 				CB9F55422665C53F00CBBFB9 /* nicole-cherry-blossom-tree.json in Resources */,
 				CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */,

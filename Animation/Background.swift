@@ -51,7 +51,7 @@ class Background: NSObject, Sketchable {
             
             // Render the system
             visualizedBackground.render()
-            visualizedBackground.printJSONRepresentation()
+            //visualizedBackground.printJSONRepresentation()
             
             Y += 1
             B += 0.16

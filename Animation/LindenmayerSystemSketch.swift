@@ -105,7 +105,7 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
         var willowTree2 = Visualizer(fromJSONFile: "aidan-willowTree-sketch",
                                    drawingOn: self.canvas)
         
-        willowTree2.initialPosition = Point(x:400 , y: 150)
+        willowTree2.initialPosition = Point(x:420 , y: 150)
           willowTree2.render()
         
         
@@ -140,10 +140,10 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
             yy += 100
         }
         
-        var cherry = Visualizer(fromJSONFile: "nicole-cherry-blossom-tree",
+        var cherry = Visualizer(fromJSONFile: "Fernanda-Plan2",
                                    drawingOn: self.canvas)
         
-        cherry.initialPosition = Point(x: 250, y: 200)
+        cherry.initialPosition = Point(x: 280, y: 160)
         cherry.render()
 
 
