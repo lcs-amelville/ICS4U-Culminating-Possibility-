@@ -4,31 +4,31 @@
     "rules" : {
       "Z" : [
         {
-          "text" : "[+X-F-X][++ZF]",
+          "text" : "3[+X-F-X][++ZF]",
           "odds" : 2
         },
         {
-          "text" : "[-X+F+X][--ZF]",
+          "text" : "3[-X+F+X][--ZF]",
           "odds" : 5
         }
       ],
       "F" : [
         {
-          "text" : "XX[+FZ++F-X[+ZF]][-F++X-F]",
+          "text" : "3XX[+FZ++F-X[+ZF]][-F++X-F]",
           "odds" : 4
         },
         {
-          "text" : "XX[-FZ--F+X[-ZF]][+F--X+F]",
+          "text" : "3XX[-FZ--F+X[-ZF]][+F--X+F]",
           "odds" : 3
         }
       ],
       "X" : [
         {
-          "text" : "XF[XF[+FX]]",
+          "text" : "3XF[XF[+FX]]",
           "odds" : 1
         },
         {
-          "text" : "XF[XF[+++FX]]",
+          "text" : "3XF[XF[+++FX]]",
           "odds" : 4
         }
       ]
@@ -38,6 +38,14 @@
   "length" : 10,
   "angle" : 10,
   "initialX" : 250,
+  "colors" : {
+    "3" : {
+      "hue" : 104,
+      "saturation" : 100,
+      "brightness" : 70,
+      "alpha" : 100
+       }
+    },
   "initialHeading" : 90,
   "reduction" : 1,
   "initialY" : 0

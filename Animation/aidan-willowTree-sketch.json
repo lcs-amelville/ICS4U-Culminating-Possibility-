@@ -40,9 +40,9 @@
   "initialX" : 250,
   "colors" : {
     "3" : {
-      "hue" : 113,
-      "saturation" : 100,
-      "brightness" : 70,
+      "hue" : 134,
+      "saturation" : 64,
+      "brightness" : 44,
       "alpha" : 100
     },
     "1" : {

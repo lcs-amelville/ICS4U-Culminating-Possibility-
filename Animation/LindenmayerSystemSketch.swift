@@ -140,17 +140,13 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
             yy += 100
         }
         
+        var cherry = Visualizer(fromJSONFile: "nicole-cherry-blossom-tree",
+                                   drawingOn: self.canvas)
         
-//        var devilsFingers = Visualizer(fromJSONFile: "james-devils-fingers",
-//                                   drawingOn: self.canvas)
-//
-//        devilsFingers.initialPosition = Point(x: 250, y: 250)
-//        devilsFingers.render()
-//
-//
-//
-//
-//
+        cherry.initialPosition = Point(x: 250, y: 200)
+        cherry.render()
+
+
    }
     
     // This function runs repeatedly, forever, to create the animated effect

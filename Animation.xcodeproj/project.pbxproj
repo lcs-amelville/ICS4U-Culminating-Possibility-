@@ -34,7 +34,6 @@
 		CB0C79232645BA4A000C5B05 /* Successor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C791F2645BA4A000C5B05 /* Successor.swift */; };
 		CB0C79242645BA4A000C5B05 /* LindenmayerSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C79202645BA4A000C5B05 /* LindenmayerSystem.swift */; };
 		CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */; };
-		CB0C792A2645BAC8000C5B05 /* gordon-basic-branching-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */; };
 		CB0C792F2645C452000C5B05 /* aidan-berry-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */; };
 		CB588254266170A300AB08E8 /* catTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB588253266170A300AB08E8 /* catTail.swift */; };
 		CB5882582661781600AB08E8 /* aidan-Cattail-sketch.json in Resources */ = {isa = PBXBuildFile; fileRef = CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */; };
@@ -42,6 +41,9 @@
 		CB650E25265FDDD800A41F19 /* leafSketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB650E24265FDDD800A41F19 /* leafSketch.swift */; };
 		CB9F553326656E3100CBBFB9 /* ilana-fern-plant.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9F553226656E3100CBBFB9 /* ilana-fern-plant.json */; };
 		CB9F553626656F6900CBBFB9 /* james-devils-fingers.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9F553526656F6900CBBFB9 /* james-devils-fingers.json */; };
+		CB9F55392665C51600CBBFB9 /* gordon-short-branching-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9F55382665C51600CBBFB9 /* gordon-short-branching-tree.json */; };
+		CB9F553F2665C53500CBBFB9 /* nicole-ocotillo-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9F553E2665C53500CBBFB9 /* nicole-ocotillo-bush.json */; };
+		CB9F55422665C53F00CBBFB9 /* nicole-cherry-blossom-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9F55412665C53F00CBBFB9 /* nicole-cherry-blossom-tree.json */; };
 		CBC7168C266550B200B6C910 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7168B266550B200B6C910 /* Background.swift */; };
 		CBC7168F26655DC900B6C910 /* Willow tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7168E26655DC900B6C910 /* Willow tree.swift */; };
 		CBC71692266567D900B6C910 /* aidan-willowTree-sketch.json in Resources */ = {isa = PBXBuildFile; fileRef = CBC71691266567D900B6C910 /* aidan-willowTree-sketch.json */; };
@@ -139,7 +141,6 @@
 		CB0C791F2645BA4A000C5B05 /* Successor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Successor.swift; sourceTree = "<group>"; };
 		CB0C79202645BA4A000C5B05 /* LindenmayerSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LindenmayerSystem.swift; sourceTree = "<group>"; };
 		CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "scott-berry-tree.json"; sourceTree = "<group>"; };
-		CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gordon-basic-branching-tree.json"; sourceTree = "<group>"; };
 		CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "aidan-berry-bush.json"; sourceTree = "<group>"; };
 		CB588253266170A300AB08E8 /* catTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catTail.swift; sourceTree = "<group>"; };
 		CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "aidan-Cattail-sketch.json"; sourceTree = "<group>"; };
@@ -147,6 +148,9 @@
 		CB650E24265FDDD800A41F19 /* leafSketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leafSketch.swift; sourceTree = "<group>"; };
 		CB9F553226656E3100CBBFB9 /* ilana-fern-plant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ilana-fern-plant.json"; sourceTree = "<group>"; };
 		CB9F553526656F6900CBBFB9 /* james-devils-fingers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "james-devils-fingers.json"; sourceTree = "<group>"; };
+		CB9F55382665C51600CBBFB9 /* gordon-short-branching-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gordon-short-branching-tree.json"; sourceTree = "<group>"; };
+		CB9F553E2665C53500CBBFB9 /* nicole-ocotillo-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nicole-ocotillo-bush.json"; sourceTree = "<group>"; };
+		CB9F55412665C53F00CBBFB9 /* nicole-cherry-blossom-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nicole-cherry-blossom-tree.json"; sourceTree = "<group>"; };
 		CBC7168B266550B200B6C910 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		CBC7168E26655DC900B6C910 /* Willow tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Willow tree.swift"; sourceTree = "<group>"; };
 		CBC71691266567D900B6C910 /* aidan-willowTree-sketch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "aidan-willowTree-sketch.json"; sourceTree = "<group>"; };
@@ -426,12 +430,14 @@
 		CB0C79262645BAB1000C5B05 /* System Catolog */ = {
 			isa = PBXGroup;
 			children = (
+				CB9F553E2665C53500CBBFB9 /* nicole-ocotillo-bush.json */,
 				CBCE79F02648A498006E45CC /* sihan-tree.json */,
 				CB9F553226656E3100CBBFB9 /* ilana-fern-plant.json */,
+				CB9F55412665C53F00CBBFB9 /* nicole-cherry-blossom-tree.json */,
 				CB9F553526656F6900CBBFB9 /* james-devils-fingers.json */,
 				CBCE79ED2648A490006E45CC /* victoria-bush.json */,
-				CB0C79282645BAC8000C5B05 /* gordon-basic-branching-tree.json */,
 				CB0C792E2645C452000C5B05 /* aidan-berry-bush.json */,
+				CB9F55382665C51600CBBFB9 /* gordon-short-branching-tree.json */,
 				CB0C79272645BAC8000C5B05 /* scott-berry-tree.json */,
 				CB5882572661781600AB08E8 /* aidan-Cattail-sketch.json */,
 				CBC71691266567D900B6C910 /* aidan-willowTree-sketch.json */,
@@ -536,8 +542,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9F55392665C51600CBBFB9 /* gordon-short-branching-tree.json in Resources */,
 				CB0C792F2645C452000C5B05 /* aidan-berry-bush.json in Resources */,
-				CB0C792A2645BAC8000C5B05 /* gordon-basic-branching-tree.json in Resources */,
 				81064A0E1C130A10007ED524 /* Assets.xcassets in Resources */,
 				CBC71692266567D900B6C910 /* aidan-willowTree-sketch.json in Resources */,
 				CB9F553626656F6900CBBFB9 /* james-devils-fingers.json in Resources */,
@@ -546,6 +552,8 @@
 				81064A111C130A10007ED524 /* Main.storyboard in Resources */,
 				CBCE79EE2648A490006E45CC /* victoria-bush.json in Resources */,
 				CB9F553326656E3100CBBFB9 /* ilana-fern-plant.json in Resources */,
+				CB9F553F2665C53500CBBFB9 /* nicole-ocotillo-bush.json in Resources */,
+				CB9F55422665C53F00CBBFB9 /* nicole-cherry-blossom-tree.json in Resources */,
 				CB0C79292645BAC8000C5B05 /* scott-berry-tree.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
